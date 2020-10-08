@@ -55,6 +55,7 @@ export const NavSearch = styled.input.attrs({
     color: #999;
   }
 `
+
 // 搜索框盒子
 export const SearchWrapr = styled.div`
   position: relative;
