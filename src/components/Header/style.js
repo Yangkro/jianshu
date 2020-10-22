@@ -3,7 +3,7 @@ import logoPic from '../../statics/logo.png'
 const HeaderWraper = styled.header`
   display: flex;
   justify-content: space-between;
-  height: 58px;
+  height: 56px;
   background-color: white;
   border-bottom:1px solid #f0f0f0; 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
@@ -13,7 +13,7 @@ export const LogoContainer = styled.a.attrs({
 })`
   align-self: flex-start;
   flex-shrink: 0;
-  height: 58px;
+  height: 56px;
   width: 100px;
   display: block;
   background: url(${logoPic});
@@ -36,7 +36,7 @@ export const NavItems = styled.div`
 `
 // 搜索框
 export const NavSearch = styled.input.attrs({
-  placeholder: '请输入内容',
+  placeholder: '搜索',
 })`
   outline: none;
   border: none;
@@ -61,16 +61,69 @@ export const SearchWrapr = styled.div`
   position: relative;
   .iconfont {
     position: absolute;
-    /* display:inline-block; */
     width: 30px;
     line-height: 30px;
     border-radius: 50%;
    text-align: center;
     right: 2px;
     top: 13px;
+    transition: all 0.2s ease-in;
     color: ${({ focused }) => focused ? "#fff" : '#999'};
     background-color: ${({focused}) => focused? '#999':'none'}
   }
+`
+// 热门搜素开始
+export const SearchInfo = styled.div`
+  z-index: 99;
+  display: ${({ focused, mouseEnter }) => (focused || mouseEnter)? 'block' : 'none'};
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  top: 65px;
+  width: 255px;
+  padding: 0px 20px 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+  transition: all 0.5s ease-in;
+  &::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border: 8px solid;
+    border-color: transparent transparent white transparent;
+    position :absolute;
+    top: -16px;
+  }
+`
+export const SearchInfoTitle = styled.h6`
+  display: inline-block;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 15px 0px;
+  font-size: 14px;
+  color: #969696;
+  width: 120px;
+`
+export const SearchInfoSwitch = styled.a`
+  font-size: 13px;
+  margin: 15px 0px;
+  float: right;
+  color: #969696;
+  cursor: pointer;
+`
+export const SearchInfoList = styled.div`
+  overflow: hidden;
+`
+export const SearchInfoItem = styled.a`
+  display: block;
+  float: left;
+  line-height: 20px;
+  margin: 8px 10px 0 0;
+  padding: 0 5px;
+  font-size: 13px;
+  border: 2px solid #ddd;
+  border-radius: 3px;
+  color: #787878;
+  cursor: pointer;
 `
 // 附加信息
 export const Addition = styled.div`
@@ -94,11 +147,10 @@ export const AdditionItem = styled.div`
   }
   .beta{
     color: #ec7259;
-    font-size: 32px;
+    font-size: 24px;
   }
 `
 export const AdditionButton = styled.div`
-  /* padding: 0; */
   flex: 1;
   position: relative;
   margin: 0 0 0 8px;
