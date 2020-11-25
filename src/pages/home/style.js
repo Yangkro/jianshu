@@ -1,11 +1,9 @@
 import styled from 'styled-components'
-import banner1 from '../../statics/banner.jpeg'
-import banner2 from '../../statics/banner2.jpeg'
 export const HomeWrapper = styled.div`
   overflow: hidden;
   width: 960px;
   margin: 0 auto;
-  height: 400px;
+  /* height: 400px; */
  `
 //  home页面的左边部分
 export const HomeLeft = styled.div`
@@ -15,7 +13,7 @@ export const HomeLeft = styled.div`
   width: 625px;
 `
 export const HomeRight = styled.div`
-  width: 240px;
+  width: 280px;
   float: right;
 `
 // banner图的背景
@@ -25,5 +23,5 @@ export const FirstBanner = styled.div`
   line-height: 160px;
   text-align: center;
    background-size: auto 270px;
-   background-image: url(${banner1});
+   background-image: url(${({Pic}) => Pic});
 `

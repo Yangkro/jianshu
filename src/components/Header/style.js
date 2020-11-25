@@ -42,7 +42,7 @@ export const NavSearch = styled.input.attrs({
   border: none;
   height: 38px;
   /* width: 160px; */
-  width: ${({focused}) => focused? '240px':'160px'};
+  width: ${({focused, mouseEnter}) => (focused || mouseEnter)? '240px':'160px'};
   margin-left: 20px;
   margin-top: 9px;
   padding: 0px 35px 0 20px;

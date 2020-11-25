@@ -1,0 +1,108 @@
+{
+  "writerList": [{
+    "id": 1,
+    "name": "徐凤年",
+    "writerAvater": "https://upload.jianshu.io/users/upload_avatars/9988193/fc26c109-1ae6-4327-a298-2def343e9cd8.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+    "wordCount": "932.6k",
+    "likeCount": "225.3k"
+  },
+  {
+    "id": 2,
+    "name": "李淳罡",
+    "writerAvater": "https://upload.jianshu.io/users/upload_avatars/3343569/6940ee65-036f-4b7a-9935-5915d9b67d14.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+    "wordCount": "131.6k",
+    "likeCount": "12.3k"
+    },
+    {
+      "id": 3,
+      "name": "姜泥",
+      "writerAvater": "https://upload.jianshu.io/users/upload_avatars/2027472/c6401dd5-ccd8-475f-9592-2b16be43ba7f.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+      "wordCount": "912.6k",
+      "likeCount": "21.3k"
+    },
+    {
+      "id": 4,
+      "name": "南宫仆射",
+      "writerAvater": "https://upload.jianshu.io/users/upload_avatars/4263857/34d7b217-7338-48fe-81a1-98367fecdbee.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+      "wordCount": "412.6k",
+      "likeCount": "220.3k"
+    },
+    {
+      "id": 5,
+      "name": "徐炎兵",
+      "writerAvater": "https://upload.jianshu.io/users/upload_avatars/52841/251f5481-67b6-4bf0-86f4-faac9768beb3.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+      "wordCount": "2.6k",
+      "likeCount": "0.3k"
+    },
+    {
+      "id": 6,
+      "name": "裴南苇",
+      "writerAvater": "https://upload.jianshu.io/users/upload_avatars/3950651/acfaa0ce-42fe-424a-b7c8-9a0136fb96ec.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+      "wordCount": "112.6k",
+      "likeCount": "102.3k"
+    },
+    {
+      "id": 7,
+      "name": "齐炼华",
+      "writerAvater": "https://upload.jianshu.io/users/upload_avatars/5796592/73837104-47e5-4fe9-a5be-054bd50b06f7.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+      "wordCount": "102.6k",
+      "likeCount": "50.3k"
+    },
+    {
+      "id": 8,
+      "name": "王仙之",
+      "writerAvater": "https://upload.jianshu.io/users/upload_avatars/5328453/0005e217-848f-4e50-b39b-6964a5138ef7?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+      "wordCount": "42.6k",
+      "likeCount": "20.3k"
+    },
+    {
+      "id": 9,
+      "name": "老黄",
+      "writerAvater": "https://upload.jianshu.io/users/upload_avatars/8781442/79bf6acc-5dd3-49d1-9e2b-6c58066c1442.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+      "wordCount": "1112.6k",
+      "likeCount": "302.7k"
+    },
+    {
+      "id": 10,
+      "name": "温华",
+      "writerAvater": "https://upload.jianshu.io/users/upload_avatars/2844887/8b55537a-421c-4de2-aa9b-ff7e0ce174fb.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+      "wordCount": "112.6k",
+      "likeCount": "52.4k"
+    }
+  ],
+  "writerPage": 1,
+  "recommendImgList":[{
+    "id": 1,
+    "recommendImgURL": "https://cdn2.jianshu.io/assets/web/banner-s-club-aa8bdf19f8cf729a759da42e4a96f366.png"
+  },{
+    "id": 2,
+    "recommendImgURL": "https://cdn2.jianshu.io/assets/web/banner-s-7-1a0222c91694a1f38e610be4bf9669be.png"
+  },{
+    "id": 3,
+    "recommendImgURL": "https://cdn2.jianshu.io/assets/web/banner-s-5-4ba25cf5041931a0ed2062828b4064cb.png"
+  },{
+    "id": 4,
+    "recommendImgURL": "https://cdn2.jianshu.io/assets/web/banner-s-6-c4d6335bfd688f2ca1115b42b04c28a7.png"
+    }],
+    "articleList": [{
+      "id": 1,
+      "title": "心理学家：房间越乱的人，这3种能力越突出，无论男女",
+      "description": "有句老话叫：金窝银窝不如自己的狗窝。当我看到有心理学家说房间越乱的人，某种能力越突出时，超级开心。因为平时经常被老妈念叨房间太乱，这下我终于有理...",
+      "imgURL": "https://upload-images.jianshu.io/upload_images/5138471-05844555c627b70e.png"
+    },{
+      "id": 2,
+      "title": "农村的另类奇怪现象",
+      "description": "有句老话叫：金窝银窝不如自己的狗窝。当我看到有心理学家说房间越乱的人，某种能力越突出时，超级开心。因为平时经常被老妈念叨房间太乱，这下我终于有理...",
+      "imgURL": "https://upload-images.jianshu.io/upload_images/5138471-0a1be3f753d53a52.png?imageMogr2/auto-orient/strip|imageView2/2/w/550/format/webp"
+    },{
+      "id": 3,
+      "title": "谈谈“B端C端化”",
+      "description": "背景： 最近流行一个词”B端C端化“，认为可以用C端的模式和思维来进行B端产品的设计，今天就这个问题聊聊自己的一些看法： B端C端化我的理解是：...",
+      "imgURL": "https://upload-images.jianshu.io/upload_images/1222654-5f5e5673bcc99dcb.png"
+    },{
+      "id": 4,
+      "title": "村上春树的那些扎心语录！请细细品味！",
+      "description": "1、哪里会有人喜欢孤独，不过是不喜欢失望罢了。 ——《挪威的森林》 2、鱼说，你看不到我眼中的泪，因为我在水中。水说，我能感觉到你的泪，因...",
+      "imgURL": "https://upload-images.jianshu.io/upload_images/21181964-f143c4eb508bebd1.jpg"
+      }]
+}

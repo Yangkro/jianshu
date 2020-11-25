@@ -16,9 +16,6 @@ export default (state = defaultState, action) => {
       return state.set('focused', true)
     }
     case actionTypes.SEARCH_BLUR: {
-      // const newState = JSON.parse(JSON.stringify(state))
-      // newState.focused = false
-      // return newState
       return state.set('focused', false)
     }
     case actionTypes.CHANGE_LIST: {

@@ -2,7 +2,6 @@ import React  from 'react'
 import Button from '../Button'
 import HeaderWraper, { LogoContainer, Nav, NavItems, Addition, AdditionItem, NavSearch, AdditionButton, SearchWrapr, SearchInfo, SearchInfoTitle, SearchInfoSwitch, SearchInfoList, SearchInfoItem} from './style'
 import {connect} from 'react-redux'
-// import { onSearchFocused,onSearchBlured } from './store/actionCreators'
 import {actionCreators} from './store'
 function Header(props) {
   // 将immutable的list转化为普通的list
@@ -10,7 +9,7 @@ function Header(props) {
   let pageList = []
   if (newList.length) {
     for (let i = (props.page - 1) * 9; i < props.page * 9; i++){
-      pageList.push(<SearchInfoItem key={Math.random(1)}>{newList[i]}</SearchInfoItem>)
+      pageList.push(<SearchInfoItem key={newList[i]}>{newList[i]}</SearchInfoItem>)
     }
   }
   return (
@@ -22,6 +21,7 @@ function Header(props) {
         <SearchWrapr focused={props.focused}>
           <NavSearch
             onFocus={props.handleInputFocus}
+            mouseEnter = {props.mouseEnter}
             onBlur={props.handleInputBlur}
             focused={props.focused}
           />
@@ -107,7 +107,6 @@ const mapDispatchToprops = (dispatch) => {
       if (page < totalPage) {
         dispatch(actionCreators.onChangePage(page + 1))
       } else {
-        
         dispatch(actionCreators.onChangePage(1))
       }
     }

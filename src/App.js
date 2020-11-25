@@ -7,14 +7,20 @@ import { Provider } from 'react-redux'
 import { BrowserRouter as Router, Route } from "react-router-dom"
 import Home from './pages/home'
 import Detail from './pages/detail' 
+import Login from './pages/login';
 function App() {
   return (
     <Provider store={store}>
-    <div className="yangkro">
+      <div className="yangkro">
+        <div>
         <Header />
+          <Router>
+            <Route path="/" exact component={Home}></Route>
+            <Route path='/detail/:id' exact component={Detail}></Route>
+          </Router>
+        </div>
         <Router>
-          <Route path="/" exact component={Home}></Route>
-          <Route path='/detail' exact component={Detail}></Route>
+          <Route path="/login" exact component={Login}></Route>
         </Router>
     </div>
     </Provider>
