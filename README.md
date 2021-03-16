@@ -1,3 +1,10 @@
+## 技术栈
+该项目采用的语言框架是`react`，数据管理采用的是`redux`,请求后端数据采用的是redux-thunk，采用了`immutable.js`控制数据厂库的读写。组件的编写采用`styled-components`，组价的管理部分采用的是`storybook`，采用`yarn`替代npm管理package。 该项目需要node环境
+项目的启动
+- 安装node和yarn（如果已经安装，请忽略）
+- 执行`yarn`安装`package.json`中的包
+- 执行`yarn start`启动项目
+
 ## 简书项目开发过程
 
 ### 首页部分开发
